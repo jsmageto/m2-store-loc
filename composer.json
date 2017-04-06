@@ -1,0 +1,15 @@
+{
+    "name": "jm/module-storelocator",
+    "description": "JM Store Locator",
+    "license": "proprietary",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "JM\\StoreLocator\\": ""
+        }
+    }
+}
