@@ -46,7 +46,7 @@
 			<argument name="data" xsi:type="array">
 				<item name="config" xsi:type="array">
 					<item name="dataType" xsi:type="string">text</item>
-					<item name="label" translate="true" xsi:type="string">LocationName</item>
+					<item name="label" translate="true" xsi:type="string">Location Name</item>
 					<item name="formElement" xsi:type="string">input</item>
 					<item name="source" xsi:type="string">StoreLocator</item>
 					<item name="sortOrder" xsi:type="number">10</item>
@@ -75,9 +75,9 @@
 		<field name="StoreAddress">
 			<argument name="data" xsi:type="array">
 				<item name="config" xsi:type="array">
-					<item name="dataType" xsi:type="string">text</item>
-					<item name="label" translate="true" xsi:type="string">StoreAddress</item>
-					<item name="formElement" xsi:type="string">input</item>
+					<item name="dataType" xsi:type="string">input</item>
+					<item name="label" translate="true" xsi:type="string">Store Address</item>
+					<item name="formElement" xsi:type="string">textarea</item>
 					<item name="source" xsi:type="string">StoreLocator</item>
 					<item name="sortOrder" xsi:type="number">30</item>
 					<item name="dataScope" xsi:type="string">StoreAddress</item>
@@ -91,7 +91,7 @@
 			<argument name="data" xsi:type="array">
 				<item name="config" xsi:type="array">
 					<item name="dataType" xsi:type="string">text</item>
-					<item name="label" translate="true" xsi:type="string">StorePhone</item>
+					<item name="label" translate="true" xsi:type="string">Store Phone</item>
 					<item name="formElement" xsi:type="string">input</item>
 					<item name="source" xsi:type="string">StoreLocator</item>
 					<item name="sortOrder" xsi:type="number">40</item>
@@ -106,7 +106,7 @@
 			<argument name="data" xsi:type="array">
 				<item name="config" xsi:type="array">
 					<item name="dataType" xsi:type="string">text</item>
-					<item name="label" translate="true" xsi:type="string">StoreHours</item>
+					<item name="label" translate="true" xsi:type="string">Store Hours</item>
 					<item name="formElement" xsi:type="string">input</item>
 					<item name="source" xsi:type="string">StoreLocator</item>
 					<item name="sortOrder" xsi:type="number">50</item>

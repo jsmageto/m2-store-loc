@@ -1,0 +1,40 @@
+/*custom css here*/
+
+/*custom css here test lah*/
+
+#map {
+    height: 300px;
+    width: 100%;
+    max-width: 100%;
+}
+#list-location {
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: left;
+}
+#list-location ul {
+    display: block;
+}
+#list-location ul li {
+    display: block;
+    width: 33%;
+    float: left;
+}
+#list-location ul li h4 {
+    font-size: 18px;
+    display: block;
+    float: left;
+    clear: both;
+}
+#list-location ul li span {
+    display: block;
+    float: left;
+    clear: both;
+    padding: 5px 0;
+}
+#list-location ul li span b {
+    display: inline-block;
+    padding-right: 10px;
+}

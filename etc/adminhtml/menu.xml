@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
 	<menu>
-		<add id="JM::top_level" module="JM_StoreLocator" resource="Magento_Backend::content" sortOrder="9999" title="JM"/>
+		<add id="JM::top_level" module="JM_StoreLocator" resource="Magento_Backend::content" sortOrder="9999" title="JM StoreLocator"/>
 		<add action="jm_storelocator/storelocator/index" id="JM::jm_storelocator" module="JM_StoreLocator" parent="JM::top_level" resource="Magento_Backend::content" sortOrder="9999" title="StoreLocator"/>
 	</menu>
 </config>
